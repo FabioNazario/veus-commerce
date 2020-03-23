@@ -43,6 +43,7 @@ DB_PASSWORD=<your_db_password>
 ```
 
 **Download/update project dependencies**
+>It may take a few minutes.
 ```
 $ composer update no-scripts
 ```

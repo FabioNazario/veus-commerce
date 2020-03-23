@@ -53,7 +53,7 @@ $ php artisan jwt:secret
 ```
 **Run migrations:**
 ```
-$ php artisan migrate
+$ php artisan migrate --seed
 ```
 
 **Start server:**

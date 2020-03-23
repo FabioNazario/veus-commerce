@@ -32,7 +32,7 @@ $ mysql -u root -e "create database veus_commerce_testing collate utf8mb4_unicod
 
 **Make a copy of ".env.example" and rename to ".env"**
 ```
-cp .env_example .env 
+cp .env.example .env 
 ```
 
 **Edit  database credentials in ".env" file**

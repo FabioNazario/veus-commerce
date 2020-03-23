@@ -15,9 +15,8 @@ Route::prefix('v1')->namespace('Api')->group(function(){
 
     Route::group(['middleware' => ['jwt.auth']], function () {
 
-        Route::resource('products', 'ProductController');
+        Route::resource('products', 'ProductController', ['except' => [ 'edit' ]]);
 
     });
-
 
 });
